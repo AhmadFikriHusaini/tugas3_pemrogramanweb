@@ -26,7 +26,7 @@
           <div class="card-header"><b>ComboBox Bertingkat</b></div>
           <div class="card-body">
             <form class="form-horizontal" method="post">
-              <div class="form-group">
+              <div class="input-group">
                 <label class="control-label col-sm-3">Provinsi:</label>
                 <div class="col-sm-9">
                   <?php
@@ -42,7 +42,7 @@
                   </select>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="input-group">
                 <label class="control-label col-sm-3">Kota/Kabupaten:</label>
                 <div class="col-sm-9">
                   <select class="form-control" name="" id="kota">
@@ -50,7 +50,7 @@
                   </select>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="input-group">
                 <label class="control-label col-sm-3">Kecamatan:</label>
                 <div class="col-sm-9">
                   <select class="form-control" name="" id="kecamatan">
