@@ -72,7 +72,7 @@
         });
 
         $("#file").change(function () {
-            let allowed = ['aplication/pdf', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-excel'];
+            let allowed = ['application/pdf', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-excel'];
             let file = this.files[0];
             let typeFile = file.type;
             if(!allowed.includes(typeFile)){
